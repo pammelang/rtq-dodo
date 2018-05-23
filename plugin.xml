@@ -1,0 +1,17 @@
+<library path="src">
+  <class name="Home" type="rqt_dodo.scanner_module.HomePlugin" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A Python GUI plugin for scanning barcodes and QR codes.
+    </description>
+    <qtgui>
+      <group>
+        <label>Logging</label>
+        <icon type="theme">folder</icon>
+        <statustip>Plugins related to logging.</statustip>
+      </group>
+      <label>Barcode</label>
+      <icon type="theme">system-help</icon>
+      <statustip>A Python GUI plugin for scanning barcodes.</statustip>
+    </qtgui>
+  </class>
+</library>
